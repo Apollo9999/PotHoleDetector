@@ -14,7 +14,9 @@ The data in the data center is used to analyze Road conditions for immediate and
 
 Data Set Images
 
-The below link provides the data set images folder location due to space constraint we uploaded on google drive.The results obatined in the Results folder are with accuracy and efficiency https://drive.google.com/file/d/1pUcpNrRm3fZrwmGfH0aGm_WEA5Pl9sZ5/view?usp=sharing
+Due to space constraint in github we uploaded on google drive.
+
+The below link provides the data set images folder .The output obatined in the Results folder are with accuracy and efficiency https://drive.google.com/file/d/1pUcpNrRm3fZrwmGfH0aGm_WEA5Pl9sZ5/view?usp=sharing
 
 Technology stack used for Project*
 
