@@ -39,3 +39,14 @@ Object recognition : Python - OpenCV
 Implementation
 
 Project implementation made by using recorder video clip will be converted into image frames using open CV and will be shared to the Azure Custom vision Api to detect the Potholes. The Images with potholes prediction percentage of 50 or more will be considered and the corresponding geo-location of the image will be send to the Azure functions api. The azure function api will take care of persisting the received information into the azure sql server database. The admin can extract the data and a visualize the data with Azure Power BI reports for analytics and can group the data by Date, Location, severity, etc.
+
+![](https://raw.githubusercontent.com/Apollo9999/PotHoleDetector/master/images/Screenshot%20(107).png)
+![](https://raw.githubusercontent.com/Apollo9999/PotHoleDetector/master/images/Screenshot%20(108).png)
+![](https://raw.githubusercontent.com/Apollo9999/PotHoleDetector/master/images/Screenshot%20(109).png)
+![](https://raw.githubusercontent.com/Apollo9999/PotHoleDetector/master/images/Screenshot%20(110).png)
+![](https://raw.githubusercontent.com/Apollo9999/PotHoleDetector/master/images/Screenshot%20(111).png)
+![](https://raw.githubusercontent.com/Apollo9999/PotHoleDetector/master/images/Screenshot%20(112).png)
+![](https://raw.githubusercontent.com/Apollo9999/PotHoleDetector/master/images/Screenshot%20(113).png)
+![](https://raw.githubusercontent.com/Apollo9999/PotHoleDetector/master/images/Screenshot%20(114).png)
+![](https://raw.githubusercontent.com/Apollo9999/PotHoleDetector/master/images/Screenshot%20(115).png)
+
