@@ -1,41 +1,68 @@
-# PotHoleDetector
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Reason for selecting problem statement 
+## Available Scripts
 
-Bad roads infrastructure can lead to reduced road safety. One of the major problems we see on Indian roads is potholes. Increased traffic, blocked lanes, injuries, and even deaths; all of these issues are linked to potholes and bad roads in a major way.Especially accident deaths happened last year are more than 30% due to lack of proper roads.
+In the project directory, you can run:
 
-our team  firmly believe in the philosophy, that all of the biggest problems in our world can be solved using technology and innovation. We intend to do just that by putting the power to change our roads in everyone's hands!
+### `yarn start`
 
-The main motive and objective of the project is to save lives of people by trying to minimize accidents on the road Potholes are serious concern issue in our country. People find it difficult to avoid potholes while driving. We are addressing this problem by building a pothole detector system and helping the drivers know about the road conditions by alerting them through maps.
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-To detect potholes present in Roads via a camera mounted to public/private vehicles and intimate the corresponding authorities for necessary act.The System updates the Geo-Location of every potholes detected to a centralized data center with the image and severity.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-The data in the data center is used to analyze Road conditions for immediate and prioritized actions.The Analyzed Report Lists the potholes in the most commuted roads and helps the authorities to decide the quickness of the action.
+### `yarn test`
 
-Data Set Images
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Due to space constraint in github we uploaded on google drive.
+### `yarn build`
 
-The below link provides the data set images folder .The output obatined in the Results folder are with accuracy and efficiency https://drive.google.com/file/d/1pUcpNrRm3fZrwmGfH0aGm_WEA5Pl9sZ5/view?usp=sharing
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Technology stack used for Project*
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-PotHole Detection : Azure Function
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-MachineLearning Model to detect PotHoles : Azure Custom vision API - Predictions
+### `yarn eject`
 
-Data Annotation & Training of Modal : Azure Custom vision API - Training
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-API Host : Azure deployment
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Database : Azure SQL Server
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Primary Host : Azure Virtual Machine
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Data visualization : Azure Power BI
+## Learn More
 
-Object recognition : Python - OpenCV
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Implementation
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Project implementation made by using recorder video clip will be converted into image frames using open CV and will be shared to the Azure Custom vision Api to detect the Potholes. The Images with potholes prediction percentage of 50 or more will be considered and the corresponding geo-location of the image will be send to the Azure functions api. The azure function api will take care of persisting the received information into the azure sql server database. The admin can extract the data and a visualize the data with Azure Power BI reports for analytics and can group the data by Date, Location, severity, etc.
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
