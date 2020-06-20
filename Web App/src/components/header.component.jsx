@@ -1,13 +1,24 @@
-import React from 'react';
+\import React from 'react';
 import {Link} from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom'; 
 import './header.styles.css';
-
-const Header = () => (
+import { auth } from '../../firebase/firebase.utils';
+const Header = ({currentUser}) => (
   <div className='header'>
-   <h2>Spot Hole Detector</h2>
-    <div className="sign-in-container">
-     Sign In/Sign Up
+   <Link className='pot' to ='/'> Spot Hole Detector </Link>
+   {
+    currentUser ? (<div className='option' onClick={()=>auth.signOut()}>
+    SIGN OUT
     </div>
+    ):
+    (   <Link to='/signin' className="option">
+    SIGN IN
+   </Link> )
+
+   }
+
+   
+    
 
   </div>
 );
