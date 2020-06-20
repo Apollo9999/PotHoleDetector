@@ -1,5 +1,12 @@
 # PotHoleDetector
 
+Reason for selecting problem statement 
+
+Bad road infrastructure can lead to reduced road safety. One of the major problems we see on Indian roads is potholes. Increased traffic, blocked lanes, injuries, and even deaths; all of these issues are linked to potholes and bad roads in a major way. Bad roads resulted in nearly 10,000 deaths last year in India. Nearly 3,000 of these deaths were because of potholes.
+
+
+
+
 
 The main motive and objective of the project is to save lives of people by trying to minimize accidents on the road Potholes are serious concern issue in our country. People find it difficult to avoid potholes while driving. We are addressing this problem by building a pothole detector system and helping the drivers know about the road conditions by alerting them through maps.
 
