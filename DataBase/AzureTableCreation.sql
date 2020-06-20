@@ -1,4 +1,3 @@
-/****** Object:  Table [dbo].[PotHoles]    Script Date: 08-12-2019 06:49:25 ******/
 SET ANSI_NULLS ON
 GO
 
