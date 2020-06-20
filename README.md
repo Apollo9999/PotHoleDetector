@@ -2,7 +2,7 @@
 
 Reason for selecting problem statement 
 
-Bad road infrastructure can lead to reduced road safety. One of the major problems we see on Indian roads is potholes. Increased traffic, blocked lanes, injuries, and even deaths; all of these issues are linked to potholes and bad roads in a major way. Bad roads resulted in nearly 10,000 deaths last year in India. Nearly 3,000 of these deaths were because of potholes.
+Bad roads infrastructure can lead to reduced road safety. One of the major problems we see on Indian roads is potholes. Increased traffic, blocked lanes, injuries, and even deaths; all of these issues are linked to potholes and bad roads in a major way.Especially accident deaths happened last year are more than 30% due to lack of proper roads.
 
 our team  firmly believe in the philosophy, that all of the biggest problems in our world can be solved using technology and innovation. We intend to do just that by putting the power to change our roads in everyone's hands!
 
