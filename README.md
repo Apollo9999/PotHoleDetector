@@ -21,6 +21,10 @@ Due to space constraint in github we uploaded on google drive.
 
 The below link provides the data set images folder .The output obatined in the Results folder are with accuracy and efficiency https://drive.google.com/file/d/1pUcpNrRm3fZrwmGfH0aGm_WEA5Pl9sZ5/view?usp=sharing
 
+
+*******Results folder images are extracted by using opencv******
+
+
 Technology stack used for Project*
 
 PotHole Detection : Azure Function
