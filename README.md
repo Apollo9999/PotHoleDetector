@@ -4,6 +4,9 @@ Reason for selecting problem statement
 
 Bad roads infrastructure can lead to reduced road safety. One of the major problems we see on Indian roads is potholes. Increased traffic, blocked lanes, injuries, and even deaths; all of these issues are linked to potholes and bad roads in a major way.Especially accident deaths happened last year are more than 30% due to lack of proper roads.
 
+As per empirical study shows that there could be more than to 100,000 potholes in need of repair on the island of the city of Bangalore. The perpetual repairs cost the city an estimated huge investment annually. 
+
+
 our team  firmly believe in the philosophy, that all of the biggest problems in our world can be solved using technology and innovation. We intend to do just that by putting the power to change our roads in everyone's hands!
 
 The main motive and objective of the project is to save lives of people by trying to minimize accidents on the road Potholes are serious concern issue in our country. People find it difficult to avoid potholes while driving. We are addressing this problem by building a pothole detector system and helping the drivers know about the road conditions by alerting them through maps.
