@@ -41,7 +41,7 @@ Object recognition : Python - OpenCV
 
 React Js
 
-Video hosted on youtube details as follows
+Submission Video hosted on youtube details as follows:
 
 https://www.youtube.com/watch?v=A1sGngPQ7Ts&feature=youtu.be
 
